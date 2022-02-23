@@ -1,0 +1,22 @@
+GET http://localhost:3000/auth
+Authorization: Bearer
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibW9oaXQiLCJpYXQiOjE2NDUxNzUyODYsImV4cCI6MTY0NTE3ODg4Nn0.dHh5tBgio1wfYmkXjQ8sLrvlFCmZQCheIYu7rUptaEA
+
+###
+POST http://localhost:3000/login
+
+Content-Type : application/json
+{
+    "name": "mohit",
+    "password": "abcd"
+}
+
+####
+
+POST http://localhost:3000/create
+
+Content-Type : application/json
+{
+    "name": "mohit9",
+    "password": "abcd9"
+}
